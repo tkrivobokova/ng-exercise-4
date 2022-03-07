@@ -17,9 +17,10 @@
 5. Navigate to the bin folder
 ``` cd bin ```
 6. Run the script in headless mode
-```sh jmeter.sh -n -t Joudlust_Script.jmx -Jusers=<y> -Jramp-up=<k> -Jloops=<x> -Jduration=<z> -l demoresult66.jtl -e -o test ```
+- ```sh jmeter.sh -n -t Joudlust_Script.jmx -Jusers=<y> -Jramp-up=<k> -Jloops=<x> -Jduration=<z> -l testresults.jtl -e -o testResults ``` for Unix
+- ``` jmeter -n -t Joudlust_Script.jmx -Jusers=<y> -Jramp-up=<k> -Jloops=<x> -Jduration=<z> -l testresults.jtl -e -o testResults ``` for Windows
 
-> You have to specify y, k, x, and z for parameters (if the value is not defined default value "1" will be used)
+> y, k, x, and z values for parameters **must** be specified to run the test
 
 > The parameter "-Jusers" indicates the number of threads (users). Should be a positive integer
 
