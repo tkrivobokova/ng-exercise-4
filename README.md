@@ -1,4 +1,4 @@
-# Provitöö 1. osa: Jõudlustestmine
+# Provitöö 4. osa: Jõudlustestmine
 #### Prerequirement
 1. Java is installed (java --version)
 2. Jmeter is installed
@@ -19,4 +19,6 @@ cd bin
 #### Run the script in headless mode
 bin % sh jmeter.sh -n -t Joudlust_Script.jmx -Jusers=<x> -l testResults.jtl -e -o testResults
   
-
+#### Steps to open Jmeter Dashboard to view results:
+1. Open testResults folder
+2. Open index.html file
