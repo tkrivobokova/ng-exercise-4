@@ -10,7 +10,7 @@
 1. Download the script code from Github
 1.1. Press the "Code" button
 1.2. Press "Download ZIP"
-2. Extract script into Jmeter's "bin" folder
+2. Extract script into Jmeter's "bin" folder (only Joudlust_Script.jmx file)
 3. Open a terminal (or a Command-Line console if using Windows)
 4. Navigate to the folder where Jmeter is installed
 ``` cd <path-to-folder> ```
