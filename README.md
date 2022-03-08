@@ -4,7 +4,7 @@
 ``` java --version ```
 2. Jmeter is installed
 > If not, follow the instructions: https://jmeter.apache.org/download_jmeter.cgi
-4. Jmeter folder path is known 
+3. Jmeter folder path is known 
 
 #### Steps to run the script:
 1. Download the script code from Github
